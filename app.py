@@ -1,3 +1,4 @@
+
 from shiny.express import input, ui, render
 from shinywidgets import render_plotly
 import plotly.express as px
@@ -67,7 +68,7 @@ with ui.sidebar(open="open"):
     ui.hr()
     ui.a(
         "Github",
-        href="https://github.com/Queensdelight/cintel-03-reactive/edit/main/app.py",
+        href="https://github.com/Queensdelight/cintel-04-local.git",
         target="_blank",
     )
 
