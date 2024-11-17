@@ -1,12 +1,11 @@
 # PyShiny Express: Palmer Penguins Dashboard
 
 - Repository: [pyshiny-penguins-dashboard-express](https://github.com/denisecase/pyshiny-penguins-dashboard-express)
-- Live App: [Penguins Dashboard (Express)](https://denisecase.github.io/pyshiny-penguins-dashboard-express/)
 
-Run and publish interactive apps using PyShiny Express and GitHub Pages.
+Objective: Run and publish interactive apps using PyShiny Express and GitHub Pages.
 
 This is a teaching version of the app written for clarity and understanding.
-To contribute, please fork the repository and submit a pull request.
+To contribute, please fork the repository above and submit a pull request.
 
 ## Data Description
 
@@ -25,15 +24,10 @@ Column names for the penguins dataset include:
 
 See: <https://allisonhorst.github.io/palmerpenguins/>
 
-## Data Cleaning and Transformation
-
-The data includes some missing values.
-We generally clean the data by removing rows with missing values and possibly transform the data to use columns that are more easily read (or use labels on charts and tables).
-
 ## Source
 
 From <https://shiny.posit.co/py/docs/user-interfaces.html>.
-This version has been modified slightly for hosting with GitHub Pages.
+This version has been modified slightly for hosting with GitHub Pages— ##Useful page.
 
 ## Prerequisites
 
@@ -235,14 +229,3 @@ Data originally published in:
 
 The Shiny development team. Shiny for Python [Computer software]. <https://github.com/posit-dev/py-shiny>
 
-## Screenshots
-
-Running the Shiny for Python app locally on port 8000.
-
-![Running the Shiny for Python app locally](./images/LocalAppRunning.JPG)
-
-Serving the static app locally from the **docs** folder (as GitHub Pages will) on port 8008.
-The browser tab shows a custom tab title and favicon.
-Recommended: Build your own favicon at <https://favicon.io/>.
-
-![Serving the app locally from the docs folder](./images/ServingAppLocally.JPG)
